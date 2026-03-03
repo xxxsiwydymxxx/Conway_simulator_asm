@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConwayGUI": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

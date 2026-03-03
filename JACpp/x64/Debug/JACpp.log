@@ -1,0 +1,5 @@
+﻿  MyDll.cpp
+  LINK : C:\Users\HP\Desktop\polsl\JA\ConwayGUI\x64\Debug\JACpp.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\HP\Desktop\polsl\JA\ConwayGUI\x64\Debug\JACpp.lib and object C:\Users\HP\Desktop\polsl\JA\ConwayGUI\x64\Debug\JACpp.exp
+  JACpp.vcxproj -> C:\Users\HP\Desktop\polsl\JA\ConwayGUI\x64\Debug\JACpp.dll
+          1 file(s) copied.

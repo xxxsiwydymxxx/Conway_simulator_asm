@@ -1,0 +1,5 @@
+﻿  Assembling JAAsm.asm...
+     Creating library C:\Users\HP\Desktop\polsl\JA\ConwayGUI\x64\Release\JAAsm.lib and object C:\Users\HP\Desktop\polsl\JA\ConwayGUI\x64\Release\JAAsm.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  JAAsm.vcxproj -> C:\Users\HP\Desktop\polsl\JA\ConwayGUI\x64\Release\JAAsm.dll
+          1 file(s) copied.

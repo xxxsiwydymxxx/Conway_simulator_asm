@@ -1,0 +1,35 @@
+﻿<Window x:Class="ConwayGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConwayGUI"
+        mc:Ignorable="d"
+        Title="ConwayGUI" Height="600" Width="600">
+    <Grid Margin="0,0,0,-139" HorizontalAlignment="Left" Width="591">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="233*"/>
+            <RowDefinition Height="490*"/>
+        </Grid.RowDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="108" Margin="10,116,0,0" Stroke="Black" VerticalAlignment="Top" Width="209"/>
+        <RadioButton x:Name="radiocpp" Content="W języku wysokiego poziomu" HorizontalAlignment="Left" Margin="26,156,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton x:Name="radioasm" Content="W Asemblerze" HorizontalAlignment="Left" Margin="26,177,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <RadioButton x:Name="radiocmp" Content="Porównanie bibliotek" HorizontalAlignment="Left" Margin="26,197,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <Label Content="Biblioteka dll:" HorizontalAlignment="Left" Margin="30,125,0,0" VerticalAlignment="Top" Width="81"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="11,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="297"/>
+        <Label Content="Liczba wątków:" HorizontalAlignment="Left" Margin="26,47,0,0" VerticalAlignment="Top" Width="104"/>
+        <TextBox x:Name="textbox_threads" HorizontalAlignment="Left" Margin="159,51,0,0" TextWrapping="Wrap" Text="4&#xD;&#xA;" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Height="22"/>
+        <Label Content="Symulacja Conway's game of life" HorizontalAlignment="Left" Margin="33,21,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="268,13,0,0" VerticalAlignment="Top" Click="Button_Click" Grid.Row="1"/>
+        <Image x:Name="Mybmp"  HorizontalAlignment="Left" Height="234" Margin="26,13,0,0" VerticalAlignment="Top" Width="234" RenderTransformOrigin="0.492,0.492" Grid.Row="1"/>
+        <Label Content="wątków w systemie:" HorizontalAlignment="Left" Margin="26,78,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label x:Name="label_threads" Content="0" HorizontalAlignment="Left" Margin="160,78,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button2" Content="test" HorizontalAlignment="Left" Margin="521,13,0,0" VerticalAlignment="Top" Click="button2_Click" Grid.Row="1"/>
+        <TextBox x:Name="textboxresults" HorizontalAlignment="Left" Margin="313,0,0,0" VerticalAlignment="Center" Width="268" Height="214" IsReadOnly="True" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" TextWrapping="Wrap"/>
+        <Rectangle HorizontalAlignment="Left" Height="107" Margin="224,117,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Label Content="Liczba &#xD;&#xA;generacji:" HorizontalAlignment="Left" Margin="235,125,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textboxgenerations" HorizontalAlignment="Left" Height="20" Margin="235,184,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="61" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="textboxthreadresults" HorizontalAlignment="Left" Margin="313,50,0,0" VerticalAlignment="Top" Width="268" Height="214" IsReadOnly="True" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" TextWrapping="Wrap" Grid.Row="1"/>
+
+    </Grid>
+</Window>
